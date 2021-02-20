@@ -1,7 +1,9 @@
 import axios from "axios"
 
 
-export default ()=> axios.get("https://randomuser.me/api/?results=10")
+export default {
+    getUsers: function(){
+    return axios.get("https://randomuser.me/api/?results=100&nat=us")} }
 
 
 
