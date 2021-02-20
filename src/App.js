@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import getUsers from "./API"
+import getUsers from "./utils/API"
 import Search from "./components/Search"
 import Table from "./components/Table"
 
